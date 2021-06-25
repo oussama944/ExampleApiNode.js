@@ -1,7 +1,7 @@
 const mongoose=require("mongoose");
 
 const PostsModel=mongoose.model(
-    "node-api",
+    "nodeApiExample",
     {
         author:{
             type:String,
@@ -19,4 +19,4 @@ const PostsModel=mongoose.model(
     "post"
 );
 
-module.exports={ PostModel };
+module.exports={ PostsModel };
